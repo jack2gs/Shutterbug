@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E454CDC61D4C26AB007587B7 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E454CDC51D4C26AB007587B7 /* FlickrFetcher.m */; };
+		E454CDC91D4C3930007587B7 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E454CDC81D4C3930007587B7 /* ImageViewController.m */; };
+		E454CDCC1D4C8738007587B7 /* FlickrSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E454CDCB1D4C8738007587B7 /* FlickrSplitViewController.m */; };
 		E485E7AB1D477803000F7052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E485E7AA1D477803000F7052 /* main.m */; };
 		E485E7AE1D477803000F7052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E485E7AD1D477803000F7052 /* AppDelegate.m */; };
 		E485E7B11D477803000F7052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E485E7B01D477803000F7052 /* ViewController.m */; };
 		E485E7B41D477803000F7052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485E7B21D477803000F7052 /* Main.storyboard */; };
 		E485E7B61D477803000F7052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E485E7B51D477803000F7052 /* Assets.xcassets */; };
 		E485E7B91D477803000F7052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485E7B71D477803000F7052 /* LaunchScreen.storyboard */; };
+		E485E7C21D4778EE000F7052 /* FlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E485E7C11D4778EE000F7052 /* FlickrPhotosTVC.m */; };
+		E485E7C51D4779E8000F7052 /* JustPostedFlickrPhotosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E485E7C41D4779E8000F7052 /* JustPostedFlickrPhotosTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E454CDC31D4C26AB007587B7 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		E454CDC41D4C26AB007587B7 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		E454CDC51D4C26AB007587B7 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		E454CDC71D4C3930007587B7 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E454CDC81D4C3930007587B7 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E454CDCA1D4C8738007587B7 /* FlickrSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrSplitViewController.h; sourceTree = "<group>"; };
+		E454CDCB1D4C8738007587B7 /* FlickrSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrSplitViewController.m; sourceTree = "<group>"; };
 		E485E7A61D477803000F7052 /* Shutterbug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shutterbug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E485E7AA1D477803000F7052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E485E7AC1D477803000F7052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,10 @@
 		E485E7B51D477803000F7052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E485E7B81D477803000F7052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E485E7BA1D477803000F7052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485E7C01D4778EE000F7052 /* FlickrPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotosTVC.h; sourceTree = "<group>"; };
+		E485E7C11D4778EE000F7052 /* FlickrPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotosTVC.m; sourceTree = "<group>"; };
+		E485E7C31D4779E8000F7052 /* JustPostedFlickrPhotosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustPostedFlickrPhotosTVC.h; sourceTree = "<group>"; };
+		E485E7C41D4779E8000F7052 /* JustPostedFlickrPhotosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustPostedFlickrPhotosTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E454CDC21D4C26AB007587B7 /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				E454CDC31D4C26AB007587B7 /* FlickrAPIKey.h */,
+				E454CDC41D4C26AB007587B7 /* FlickrFetcher.h */,
+				E454CDC51D4C26AB007587B7 /* FlickrFetcher.m */,
+			);
+			path = "Flickr Fetcher";
+			sourceTree = "<group>";
+		};
 		E485E79D1D477802000F7052 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +84,19 @@
 		E485E7A81D477803000F7052 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
+				E454CDC71D4C3930007587B7 /* ImageViewController.h */,
+				E454CDC81D4C3930007587B7 /* ImageViewController.m */,
+				E454CDC21D4C26AB007587B7 /* Flickr Fetcher */,
 				E485E7AC1D477803000F7052 /* AppDelegate.h */,
 				E485E7AD1D477803000F7052 /* AppDelegate.m */,
+				E454CDCA1D4C8738007587B7 /* FlickrSplitViewController.h */,
+				E454CDCB1D4C8738007587B7 /* FlickrSplitViewController.m */,
 				E485E7AF1D477803000F7052 /* ViewController.h */,
 				E485E7B01D477803000F7052 /* ViewController.m */,
+				E485E7C01D4778EE000F7052 /* FlickrPhotosTVC.h */,
+				E485E7C11D4778EE000F7052 /* FlickrPhotosTVC.m */,
+				E485E7C31D4779E8000F7052 /* JustPostedFlickrPhotosTVC.h */,
+				E485E7C41D4779E8000F7052 /* JustPostedFlickrPhotosTVC.m */,
 				E485E7B21D477803000F7052 /* Main.storyboard */,
 				E485E7B51D477803000F7052 /* Assets.xcassets */,
 				E485E7B71D477803000F7052 /* LaunchScreen.storyboard */,
@@ -110,6 +145,7 @@
 				TargetAttributes = {
 					E485E7A51D477803000F7052 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V92DD33KJH;
 					};
 				};
 			};
@@ -149,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E485E7C51D4779E8000F7052 /* JustPostedFlickrPhotosTVC.m in Sources */,
 				E485E7B11D477803000F7052 /* ViewController.m in Sources */,
+				E485E7C21D4778EE000F7052 /* FlickrPhotosTVC.m in Sources */,
 				E485E7AE1D477803000F7052 /* AppDelegate.m in Sources */,
+				E454CDCC1D4C8738007587B7 /* FlickrSplitViewController.m in Sources */,
+				E454CDC61D4C26AB007587B7 /* FlickrFetcher.m in Sources */,
+				E454CDC91D4C3930007587B7 /* ImageViewController.m in Sources */,
 				E485E7AB1D477803000F7052 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +306,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shutterbug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.song.Shutterbug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -276,10 +322,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Shutterbug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.song.Shutterbug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +353,7 @@
 				E485E7BF1D477803000F7052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
