@@ -113,7 +113,7 @@
             </objects>
             <point key="canvasLocation" x="276" y="447"/>
         </scene>
-        <!--Image View Controller-->
+        <!--Detail-->
         <scene sceneID="Gj7-HE-h5l">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="xpu-ic-jeb" customClass="ImageViewController" sceneMemberID="viewController">
@@ -143,7 +143,7 @@
                             <constraint firstAttribute="trailing" secondItem="YUQ-SO-hmP" secondAttribute="trailing" id="vFP-h1-SLu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6I2-AM-bjl"/>
+                    <navigationItem key="navigationItem" title="Detail" id="6I2-AM-bjl"/>
                     <connections>
                         <outlet property="scrollView" destination="YUQ-SO-hmP" id="6di-Hj-QZ6"/>
                         <outlet property="spinner" destination="bDH-we-JfQ" id="6Wv-JQ-NOQ"/>

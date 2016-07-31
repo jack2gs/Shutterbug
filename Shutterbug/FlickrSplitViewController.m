@@ -17,12 +17,14 @@
 
 -(void)awakeFromNib
 {
+     [super awakeFromNib];
      self.delegate=self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   // [self splitViewController:self willChangeToDisplayMode:[self currentDisplayMode]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,18 +62,9 @@ collapseSecondaryViewController:(UIViewController *)secondaryViewController
 -(void)splitViewController:(UISplitViewController *)svc
    willChangeToDisplayMode:(UISplitViewControllerDisplayMode)displayMode
 {
-    UIViewController *secondaryViewController = nil;
-    UIViewController *primaryViewController = nil;
-    if (displayMode==UISplitViewControllerDisplayModePrimaryHidden) {
-        primaryViewController=svc.viewControllers[0];
-        secondaryViewController = svc.viewControllers[1];
-    }
-    else
-    {
-        primaryViewController=svc.viewControllers[1];
-        secondaryViewController = svc.viewControllers[0];
-    }
-
+    UIViewController *primaryViewController = svc.viewControllers[0];
+    UIViewController *secondaryViewController = svc.viewControllers[1];
+    
     if ([secondaryViewController isKindOfClass:[UINavigationController class]]) {
         UINavigationController *nav = (UINavigationController *)secondaryViewController;
         if ([nav.topViewController isKindOfClass:[ImageViewController class]]) {
@@ -81,16 +74,6 @@ collapseSecondaryViewController:(UIViewController *)secondaryViewController
             controller.navigationItem.leftItemsSupplementBackButton = true;
         }
     }
-}
-
--(BOOL)splitViewController:(UISplitViewController *)splitViewController showDetailViewController:(UIViewController *)vc sender:(id)sender
-{
-    return NO;
-}
-
--(BOOL)splitViewController:(UISplitViewController *)splitViewController showViewController:(UIViewController *)vc sender:(id)sender
-{
-    return NO;
 }
 
 @end

@@ -91,6 +91,10 @@
     // Do any additional setup after loading the view.
     [self.scrollView addSubview:self.imageView];
     [self startDownloadingImage];
+    if(self.traitCollection.userInterfaceIdiom==UIUserInterfaceIdiomPad)
+    {
+        self.navigationItem.leftBarButtonItem=self.splitViewController.displayModeButtonItem;
+    }
 }
 
 
