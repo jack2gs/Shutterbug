@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-   // [self splitViewController:self willChangeToDisplayMode:[self currentDisplayMode]];
+    self.traitCollection.horizontalSizeClass
 }
 
 - (void)didReceiveMemoryWarning {
